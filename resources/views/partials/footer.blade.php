@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row p-5">
         {{-- col 1 --}}
-        <div class="col-4 text-white">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-white">
           <div class="row">
             {{-- icon --}}
             <div class="col-12">
@@ -24,7 +24,7 @@
           </div>
         </div>
         {{-- col 2 --}}
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
           <div class="row text-white fw-bold">
             <div class="col-4">
               <div class="row">
@@ -50,7 +50,7 @@
           </div>
         </div>
         {{-- col 3 --}}
-        <div class="col-4">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
           <div class="row">
             <div class="col-12 text-white fw-bold">
               Subscribe our newsletter
