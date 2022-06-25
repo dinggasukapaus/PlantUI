@@ -21,6 +21,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5">
                     <img class="float-end img-fluid" src="{{asset('images/background/hero-img.svg')}}" alt="" >
+                    <img class="text-dec img-fluid" src="{{asset('images/part/dot.svg')}}" alt="" >
                 </div>
             </div>
         </div>
