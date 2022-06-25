@@ -16,6 +16,8 @@
     @include('partials.footer')
     <script src="{{ asset('js/app.js') }}"></script>
     <script type="text/javascript">
+
+        // hover on scroll
         var nav = document.querySelector('nav');
   
         window.addEventListener('scroll', function () {
@@ -25,6 +27,17 @@
             nav.classList.remove('bg-light', 'shadow');
           }
         });
+
+        // validasi
+        function validasi() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            if (name != "" && email!="") {
+                return true;
+            }else{
+                alert('Anda harus mengisi data dengan lengkap !');
+            }
+	    }
       </script>
 </body>
 </html>

@@ -9,32 +9,37 @@
     </div>
     <section class="hero-section">
         <div class="container">
-            <div class="row">
+            <div class="row mt-5 pt-5">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-3">
                     <div class="card p-5 shadow border-0">
                         <div class="card-body">
+                          <form action="#" method="" onSubmit="validasi()" >
+                            @csrf
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Your Name</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name...">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Your Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address...">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Subject</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                <select class="form-select text-muted" aria-label="Default select example">
+                                  <option selected>Select subject</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             <div>
-                                <button type="button" class="btn btn-primary">
-                                    Send message
-
-                                </button>
+                              <input class="btn btn-primary" type="submit" value="Submit">
                             </div>
+                          </form>
                         </div>
                     </div>
                 </div>
@@ -50,7 +55,7 @@
                             <p>
                                 <h1 class="display-4 fw-bold text-dark">
                                     Get in touch
-                                </h1>
+                                </h1> 
                             </p>
                             <p class="text-muted">
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
