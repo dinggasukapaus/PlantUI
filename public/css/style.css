@@ -25,5 +25,43 @@ body{
     background-size: cover;    
 }
 
+/* subscribe button and input */
+/* search button */
+.box {
+    width: 100%;
+    height: 55px;
+    border: 1px solid #ccc!important;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    border-radius: 75px;
+}
+
+.box > a {
+    color: #777;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.box > i {
+    font-size: 20px;
+    color: #777;
+}
+
+.box > input {
+    flex: 1;
+    height: 35px;
+    background-color: #252633;
+    border: none;
+    color: #b8b8b8;
+    text-indent: 10px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
 
 
