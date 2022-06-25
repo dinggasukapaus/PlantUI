@@ -5,12 +5,25 @@
     width: 100%; */
 }
 /* hero section */
-.hero-section{
+/* .hero-section{
     position: relative;
-    background: url("/public/images/background/line.svg");
-    /* background-color: red; */
+    background: url("/images/background/line.svg");
     min-height: 100vh;
     background-size: cover;
     background-position: center;    
+} */
+body{
+    position: relative;
+    background: url("/images/background/line.svg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center; 
 }
+
+.banner-image {
+    background-image: url("/images/background/bg-gradasi.svg");
+    background-size: cover;    
+}
+
+
 
