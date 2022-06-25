@@ -12,7 +12,15 @@
     background-size: cover;
     background-position: center;    
 } */
-body{
+/* body{
+    position: relative;
+    background: url("/images/background/line.svg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center; 
+} */
+
+.hero{
     position: relative;
     background: url("/images/background/line.svg");
     min-height: 100vh;
